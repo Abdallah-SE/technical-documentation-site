@@ -1,13 +1,16 @@
 code {
   display: block;
   background-color: #ebebe0;
-  color: black;
-  line-height: 110%;
+  color: red;
+  line-height: 115%;
   word-break: normal;
   overflow-y: scroll;
   border-left: 9px solid gold;
   border-radius: 7px;
   height: 150px;
+}
+code:hover {
+  background-color: red;
 }
 
 pre {
@@ -19,6 +22,26 @@ pre {
   box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.15);
   border-radius: 7px;
   padding: 20px;
+}
+pre:hover {
+  background-color: #e0ebeb;
+}
+
+h1 {
+  font-size: 30px;
+}
+h1:hover {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+}
+p:hover {
+  font-size: 39px;
+  font-weight: bold;
+  text-justify: distribute;
 }
 
 /*# sourceMappingURL=main.css.map */

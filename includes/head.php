@@ -154,6 +154,7 @@
             .container > #navbar{/*Start the container*/
                   
             }
+        }
         
         </style>
     </head>

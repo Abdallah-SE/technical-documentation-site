@@ -1,8 +1,8 @@
 code {
     display: block;
     background-color: #ebebe0;
-    color: black;
-    line-height: 110%; 
+    color: red;
+    line-height: 115%; 
     //text-align-last: left;
     word-break: normal;
     //white-space: pre-wrap;
@@ -10,6 +10,9 @@ code {
     border-left: 9px solid gold; 
     border-radius: 7px;
     height: 150px;
+    &:hover{
+        background-color: red;
+    }
 }
 pre {
     display: block;
@@ -20,4 +23,22 @@ pre {
     box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.15);
     border-radius: 7px;
     padding: 20px;
+    &:hover{
+        background-color: #e0ebeb;
+    }
+}
+h1 {
+    font-size: 30px;
+    &:hover {
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+p {
+    font-size: 30px;
+    &:hover {
+        font-size: 39px;
+        font-weight: bold;
+        text-justify: distribute;
+    }
 }
