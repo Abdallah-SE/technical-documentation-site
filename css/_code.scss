@@ -1,0 +1,23 @@
+code {
+    display: block;
+    background-color: #ebebe0;
+    color: black;
+    line-height: 110%; 
+    //text-align-last: left;
+    word-break: normal;
+    //white-space: pre-wrap;
+    overflow-y: scroll;
+    border-left: 9px solid gold; 
+    border-radius: 7px;
+    height: 150px;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 10px;
+    padding-right: 30px;
+    box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.15);
+    border-radius: 7px;
+    padding: 20px;
+}

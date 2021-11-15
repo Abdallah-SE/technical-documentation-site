@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport"  content="width=device-width, initial-scale=1">
         <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
         <style>
         body {/*style for body*/
             margin: 0;
@@ -118,27 +119,6 @@
             border-radius: 7px;
              //transform: translate(-50%, -50%);
         }/*End the main-doc sec*/
-        code {/**/
-            display: block;
-            background-color: #ebebe0;
-            color: black;
-            line-height: 110%; 
-            //text-align-last: left;
-            word-break: normal;
-            //white-space: pre-wrap;
-            overflow-y: scroll;
-            border-left: 9px solid gold; 
-            border-radius: 7px;
-            height: 150px;
-            
-          }
-        pre {
-            display: block;
-            font-family: monospace;
-            white-space: pre;
-            margin: 1em 10px;
-            padding-right: 30px;
-        }
         @media screen and (max-width: 600px) {
             .container {/*Start the container*/
                 display: flex;
